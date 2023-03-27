@@ -112,10 +112,12 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title);
-
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0px 28px;
+}
+.heder-nav-link.activ{
+  color: var(--color-btn-bgd-akcent);
 }
 
 .heder-nav-link.activ::after {
@@ -132,7 +134,6 @@ h6 {
 .heder-nav-link:hover,
 .heder-nav-link:focus {
   color: var(--color-btn-bgd-akcent);
-  text-decoration: underline;
 }
 
 .contacts-link {
@@ -412,10 +413,11 @@ h6 {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.overlay:hover .overlay-text,
-.overlay:focus .overlay-text {
+.gallery-link:hover .overlay-text,
+.gallery-link:focus .overlay-text {
   transform: translateY(0);
 }
+
 .footer {
   background-color: var(--color-bgd);
   padding-top: 100px;
